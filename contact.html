@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/Footer-with-button-logo.css">
+    <link rel="stylesheet" href="css/meucss.css">
+    <link rel="stylesheet" href="css/scrollanim.min.css">
+	</head>
+	<body>
+    <div class="example3">
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img src="imagens/logotoposmall.png" class="img-responsive" alt="Logo Sonata Escola de Música">
+            </a>
+          </div>
+          <div id="navbar3" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="cursos.html">Cursos</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contato<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="sobre_nos.html">Sobre nós</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Perguntas Frequentes</a></li>
+                  <li class="divider"></li>
+                  <li class="active"><a href="contact.html">Fale Conosco</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+      </nav>
+    </div>
+
+    <div class="form-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            
+            <form class="form-horizontal">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend class="text-center"><strong>Entre em Contato via e-mail</strong></legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="textinput">Nome</label>  
+              <div class="col-md-6">
+              <input id="textinput" name="textinput" type="text" placeholder="Fulano de Ciclano" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="textinput">E-mail</label>  
+              <div class="col-md-6">
+              <input id="textinput" name="textinput" type="text" placeholder="email@email.com" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="fone">Telefone</label>  
+              <div class="col-md-6">
+              <input id="fone" name="fone" type="text" placeholder="(49)9999 9999" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="mensagem">Mensagem</label>
+              <div class="col-md-4">                     
+                <textarea class="form-control" id="mensagem" name="mensagem">Deixe aqui sua Mensagem.</textarea>
+              </div>
+            </div>
+
+            <!-- Multiple Checkboxes -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="cursos">Cursos de Interesse</label>
+              <div class="col-md-4">
+              <div class="checkbox">
+                <label for="cursos-0">
+                  <input type="checkbox" name="cursos" id="cursos-0" value="1">
+                  Violão
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="cursos-1">
+                  <input type="checkbox" name="cursos" id="cursos-1" value="2">
+                  Guitarra
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="cursos-2">
+                  <input type="checkbox" name="cursos" id="cursos-2" value="3">
+                  Técnica Vocal
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="cursos-3">
+                  <input type="checkbox" name="cursos" id="cursos-3" value="4">
+                  Contrabaixo
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="cursos-4">
+                  <input type="checkbox" name="cursos" id="cursos-4" value="5">
+                  Piano
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="cursos-5">
+                  <input type="checkbox" name="cursos" id="cursos-5" value="6">
+                  Teclado
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="cursos-6">
+                  <input type="checkbox" name="cursos" id="cursos-6" value="7">
+                  Musicalização Infantil
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="cursos-7">
+                  <input type="checkbox" name="cursos" id="cursos-7" value="8">
+                  Pratica de Conjunto
+                </label>
+              </div>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="enviar"></label>
+              <div class="col-md-4">
+                <button id="enviar" name="enviar" class="btn btn-success">Enviar</button>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
+          </div>
+
+    <!--Inserção do Maps-->
+    
+          <div class="col-lg-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.392815693086!2d-52.62779820070754!3d-27.085878483641004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b5d2d3f393a7%3A0x74ef7973091f4a9f!2sSonata+Escola+de+M%C3%BAsica!5e1!3m2!1spt-BR!2sbr!4v1495757265523" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer fixado no bottom da página -->
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 class="logo"><a href="#"><img class="img-responsive" src="imagens/logo.png"></a></h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Principal</h5>
+                    <ul>
+                        <li><a href="index.html">Página Inicial</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Nossa História</h5>
+                    <ul>
+                        <li><a href="sobre_nos.html">Sobre Nós</a></li>
+                        <li><a href="contact.html">Entre em Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Blog</h5>
+                    <ul>
+                        <li><a href="#">Visite nosso Blog!</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <div class="social-networks">
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Todos os Direitos reservados Sonata Escola de Música </p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+    <script type="text/javascript" src="js/scrollanim.js"></script>
+    
+	</body>
+</html>

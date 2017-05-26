@@ -43,6 +43,11 @@
         background-color: #87CEFA;
         padding-bottom: 5%;   
       }
+      .form-block{
+        background-color: #87CEFA;
+        padding-bottom: 5%;
+        padding-top: 5%; 
+      }
       .second-block{
         background-color: #98FB98;
         padding-top: 5%;
